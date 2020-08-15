@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 16px;
+    line-height: 1.4;
+    color: white;
+    /* height: 100vh; */
+    background: #333;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    background: white;
+    color: #333;
+}
+.header{
+    text-align: center;
+    background:crimson;
+    color: white;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+label,input[type=submit]{
+    margin-top: 1rem;
+}
+input[type=submit]{
+padding: 0.4rem;
+background: #333;
+color: white;
+border: none;
+border-radius: 5px;
+}
+table{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    /* background: wheat; */
+}
+thead{
+    width: 100%;
+    height: 100%;
+   
+  
+}
+tbody{
+
+}
+td{
+    text-align:center;
+}
+tr{
+    /* border-top: 1px solid #333; */
+    /* border-bottom: 1px solid #333; */
+    padding: 0.5rem 0;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+tr:nth-child(odd){
+    background: #333;
+    color: white;
+}
+tr:nth-child(even){
+    background: crimson;
+    color: white;
+}
+.clsbtn{
+    text-align: center;
+    padding: 0.1rem 0.3rem;
+    border-radius: 2px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ .error{
+     background: red;
+     color: white;
+     text-align: center;
+     width: 90%;
+     margin: auto;
+     /* margin: 0 1rem; */
+     padding: 0.2rem 0;
+     /* width: 100%; */
+ }
+ .success{
+    background: green;
+    color: white;
+    width: 90%;
+     margin: auto;
+    /* margin: 0 1rem; */
+    padding: 0.2rem 0;
+    /* width: 100%; */
+    text-align: center;
+ }
+ .info{
+    background: skyblue;
+    color: white;
+    width: 90%;
+     margin: auto;
+    /* margin: 0 1rem; */
+    padding: 0.2rem 0;
+    /* width: 100%; */
+    text-align: center;
+ }
+ .msg{
+    /* margin-left:1rem;
+    margin-right:1rem; */
+     
+     /* text-align: center; */
+ }
+ .main{
+     /* width: 100%; */
+  
+ }
